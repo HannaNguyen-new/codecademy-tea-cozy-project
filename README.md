@@ -1,2 +1,2 @@
-# practice-projects
-projects for practicing codes
+# codecademy project
+1-page tea-cozy project
