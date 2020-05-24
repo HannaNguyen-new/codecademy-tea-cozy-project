@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color:seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+header{
+    position: fixed;
+    z-index: 2;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    height: 69px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-image{
+    align-self: center;
+    margin-left: 10px;
+    height:50px; 
+}
+
+nav{
+    align-self: center;
+    margin-right: 10px;
+}
+
+span{
+    display: inline-block;
+    text-decoration: underline;
+    margin: 10px;  
+}
+
+a:link,
+a:visited {
+    color: seashell;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 20px;
+}
+.background-image {
+    height: 700px;
+    width: 1200px;
+    
+}
+
+.top .text{
+    border: none;
+    background-color: black;
+    width: 1200px;
+    position: absolute;
+    z-index: 1;
+    top: 50%; 
+    text-align: center; 
+}
+
+.middle .container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    justify-content: center;
+}
+
+.middle .container img{
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+}
+
+.center{
+    text-align: center;
+}
+
+.middle{
+    margin: 50px 0;
+}
+.bottom .text{
+    position: absolute;
+    z-index: 1;
+
+}
+.bottom img,
+.bottom .text{
+    height: 500px;
+    width: 1200px;
+}
+
+.bottom .container{
+    border: none;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+}
+
+.item{
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    margin: 0 20px;
+    text-align: center;
+    line-height: 75px;
+
+}
+
+.bottom h2{
+    margin: 65px 0 15px 0;
+}
+.footer{
+    height: 200px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.left{
+    float:left;
+    margin: 20px;
+}
+
+
+@media only screen and(max-width: 480px){
+    ul{
+       overflow-wrap: break-word;
+       
+
+    }
+}
